@@ -1,0 +1,14 @@
+.img{
+    width: 50px;
+    filter: invert(1);
+}
+
+.p{
+    position: absolute;
+    top: 16px;
+    
+    background-color: black;
+    border-radius:100px;
+    padding: 5px;
+
+}
