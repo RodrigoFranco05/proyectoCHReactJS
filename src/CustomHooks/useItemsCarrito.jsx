@@ -5,7 +5,7 @@ export const useItemsCarrito = () => {
     const [productosCarrito, setProductosCarrito] = useState(0)
 
     useEffect(() => {
-        const productosEnElCarrito = JSON.parse(localStorage.getItem('carrito'))
+        const productosEnElCarrito = JSON.parse(localStorage.getItem('carrito')) || [];
         setProductosCarrito(productosEnElCarrito.length)
     },[productosCarrito])
 
