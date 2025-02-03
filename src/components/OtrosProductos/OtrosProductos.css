@@ -1,0 +1,18 @@
+.otrosProductosContainer h3{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.otrosProductos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}

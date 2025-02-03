@@ -1,0 +1,38 @@
+.carritoItem {
+
+  
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.carritoItem td{
+    
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.carritoItem img {
+  width: 70px;
+  height: 70px;
+}
+
+.carritoItem h4 {
+  margin: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+ 
+  text-transform: uppercase;
+}
+
+.carritoItem p {
+  margin: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+ 
+  text-transform: uppercase;
+}
+
+
+

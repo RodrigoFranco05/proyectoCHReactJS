@@ -1,11 +1,15 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 import "./CartWidget.css"
 
-const CartWidget = () => {
+const CartWidget = ({productosCarrito}) => {
+ 
+  
+
+  
   return (
     <div className='div'>
         <img src="../../../public/carrito-de-compras.png" alt="carrito" className='img'/>
-        <p className='p'>0</p>
+        <p className='p'>{productosCarrito}</p>
     </div>
   )
 }
